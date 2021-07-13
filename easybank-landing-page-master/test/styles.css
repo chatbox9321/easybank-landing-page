@@ -1,0 +1,152 @@
+:root {
+  --introcolor:hsl(233,26%, 24%);
+}
+
+:root {
+  --introcolor2: hsl(233, 8%, 62%);
+}
+
+:root {
+  --buttoncolor: hsl(136, 65%, 51%);
+}
+
+font-family: 'Public Sans', sans-serif;
+
+nav {
+   z-index: 100;
+}
+
+.nav-test {
+  width: 100%;
+  height: 500px;
+}
+
+.navbarlist {
+  margin-left: 20px;
+}
+
+.neel-1 {
+  width: 100%;
+  height: 750px;
+  background-color: #E8F0F2;
+  display: flex;
+  flex-direction: row;
+  overflow: hidden;
+
+}
+
+.left {
+  width: 35%;
+  height: 45%;
+  margin: 70px 0px 0px 40px;
+  font-family: 'Public Sans', sans-serif;
+}
+
+.neel-2 {
+  font-size: 2.25rem;
+  font-weight: 700;
+  padding-right: 140px;
+  margin: 30px 0px 30px 0px;
+  word-spacing: 5px;
+  color: var(--introcolor);
+}
+
+.neel-3 {
+  font-size: 1.45rem;
+  font-weight: 400;
+  margin: 30px 0px 40px 0px;
+  color: var(--introcolor2);
+}
+
+button {
+  border-radius: 10px;
+  background-color: var(--buttoncolor);
+}
+
+.right {
+  width: 65%;
+  height: 100%;
+  position: relative;
+}
+
+.strip-10 {
+  width: 100%;
+  height: 950px;
+  background-image: url("images/bg-intro-desktop.svg");
+  position: absolute;
+  bottom: 50px;
+}
+
+.phone-10 {
+ width: 100%;
+ height: 900px;
+ background-image: url("images/image-mockups.png");
+ background-repeat: no-repeat;
+ position: absolute;
+ left: 270px;
+ bottom: 90px;
+}
+
+
+
+
+
+
+@media only screen and (max-width: 500px) {
+
+.neel-1 {
+  height: 850px;
+  flex-direction: column-reverse;
+}
+
+.left {
+  width: 600px;
+  height: 300px;
+  margin: 0px;
+}
+
+.neel-2 {
+  text-align: center;
+  padding: 0px 50px 0px 20px;
+  margin-top: 0px;
+  margin-right: 100px;
+}
+
+.neel-3 {
+  text-align: center;
+  padding: 0px 10px 0px 20px;
+  font-size: 1.25rem;
+  margin-right: 140px;
+}
+
+.button {
+  margin-left: 165px;
+
+}
+
+.right {
+  width: 500px;
+  height:550px;
+}
+
+.strip-10 {
+  width:100%;
+  height: 600px;
+  background-image: none
+  background-image: url("images/bg-intro-mobile.svg");
+}
+
+.phone-10 {
+  width: 100%;
+  height: 700px;
+  background-image: url("images/image-mockups(easyone2).png");
+  top: 0px;
+  bottom: 0px;
+  left: 20px;
+  right: 0px;
+}
+
+
+
+
+}
